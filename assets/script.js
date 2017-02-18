@@ -198,7 +198,7 @@
 
     var catagoryIndex = categories.indexOf(selectedCategory);
     var hintIndex = selectedCategory.indexOf(word);
-    moogleHelp.innerHTML = "<strong>Moogle says</strong>: " +  hints [catagoryIndex][hintIndex];
+    moogleHelp.innerHTML = "Moogle says: " +  hints [catagoryIndex][hintIndex];
   };
 
    // Reset
