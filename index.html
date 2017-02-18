@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Final Fantasy Hangman</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="main_box">
+        <img id="cacti" src="assets/images/cactuar.png" width="25%" height="25%" alt="Cactuar image">
+        <div class="audio_control">
+        <span><button id="playpausebtn"></button></span>
+        <span><button id="mutebtn"></button></span>
+        </div>
+        <img src="assets/images/ffh_logo.png" width="40%" height="auto" />
+        <p>Use the alphabet below to guess the word!</p>
+      <div class="container2">
+        <div id="buttons">
+        </div>  
+        <p id="categoryName"></p>
+          <div class="statusbar">
+            <p id="myHp"></p>
+            <p id="myScore">version 1.0</p>
+            <p id="msg"></p>
+          </div>
+      <div id="hold">
+      </div>
+        <p id="clue"><img class="moogs" src="assets/images/moogle.png" width="7%" height="7%" alt="Moogle image" align="middle"> Ask for help, kupo! -</p>
+      <div class="container">
+        <button id="hint">Ask Moogle</button>
+        <button id="reset">Play again</button>
+      </div>   
+    </div>
+  </div> 
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+  <script type="text/javascript" src="assets/script.js"></script>
+ </body>
+ </html>
